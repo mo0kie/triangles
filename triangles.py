@@ -2,7 +2,7 @@
 def count_triangles(lengths):
     lengths.sort()
     count = 0
-    # Use he middle-length edge as a pivot
+    # Use the middle-length edge as a pivot
     for mid in range(len(lengths)):
         small = 0
         long = mid + 1
